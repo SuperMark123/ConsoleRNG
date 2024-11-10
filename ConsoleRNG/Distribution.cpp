@@ -5,12 +5,14 @@
 
 namespace
 {
+	// Helper function for the CDF of Chi-Square distribution
 	double incompleteLowerGamma(double a, double x) {
 		if (a <= 0) {
 			throw std::invalid_argument("Invalid input: a must be positive and x must be non-negative.");
 		}
 		if (x <= 0)
 		{
+			// To adapt to BisectionSolver 
 			return 0;
 		}
 
@@ -20,6 +22,7 @@ namespace
 		double h = x / numIntervals;
 		double sum = 0.5 * (integrand(0) + integrand(x));
 
+		// Do integration
 		for (int i = 1; i < numIntervals; ++i) {
 			sum += integrand(i * h);
 		}
