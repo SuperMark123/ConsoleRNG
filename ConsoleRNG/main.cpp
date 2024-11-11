@@ -72,7 +72,7 @@ int main()
     }
         
     std::shared_ptr<BisectionSolver> solver = std::make_shared<BisectionSolver>(1e-8);
-    std::shared_ptr<RNG> rng = std::make_shared<RNG>(dist, solver, accuracy, 123);
+    std::shared_ptr<RNG> rng = std::make_shared<RNG>(dist, solver, accuracy);
     std::shared_ptr<std::vector<double>> res = rng->generate(numOfRN);
     
     printVector(*res);

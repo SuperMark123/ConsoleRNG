@@ -77,6 +77,24 @@ UniformDistribution::UniformDistribution(double lb, double rb) :
 {
 }
 
+UniformDistribution::UniformDistribution(const UniformDistribution& dist) :
+	ContinuousDistribution{},
+	mLb{ dist.mLb },
+	mRb{ dist.mRb }
+{
+}
+
+const UniformDistribution& UniformDistribution::operator = (const UniformDistribution& dist)
+{
+	// Prevent self assignemnt
+	if (this == &dist)
+		return *this;
+
+	mLb = dist.mLb;
+	mRb = dist.mRb;
+	return *this;
+}
+
 UniformDistribution::~UniformDistribution()
 {
 }
@@ -101,6 +119,7 @@ double UniformDistribution::cdf(double x) const
 
 double UniformDistribution::invCDF(double prob, const BisectionSolver& solver) const
 {
+	(void)solver; // To remove unused variable error/warning in some compiler. Can be done by declaring variables with [[maybe_unused]] if using C++17
 	if (prob < 0 || prob > 1)
 		return std::nan("InvalidInput");
 
@@ -122,6 +141,24 @@ NormalDistribution::NormalDistribution(double mu, double sigma) :
 	mMu{ mu },
 	mSigma{ sigma }
 {
+}
+
+NormalDistribution::NormalDistribution(const NormalDistribution& dist) :
+	ContinuousDistribution{},
+	mMu{ dist.mMu },
+	mSigma{ dist.mSigma }
+{
+}
+
+const NormalDistribution& NormalDistribution::operator = (const NormalDistribution& dist)
+{
+	// Prevent self assignemnt
+	if (this == &dist)
+		return *this;
+
+	mMu = dist.mMu;
+	mSigma = dist.mSigma;
+	return *this;
 }
 
 NormalDistribution::~NormalDistribution()
@@ -155,6 +192,22 @@ ChiSquareDistribution::ChiSquareDistribution(double dof) :
 	ContinuousDistribution{},
 	mDoF{ dof }
 {
+}
+
+ChiSquareDistribution::ChiSquareDistribution(const ChiSquareDistribution& dist) :
+	ContinuousDistribution{},
+	mDoF{ dist.mDoF }
+{
+}
+
+const ChiSquareDistribution& ChiSquareDistribution::operator = (const ChiSquareDistribution& dist)
+{
+	// Prevent self assignemnt
+	if (this == &dist)
+		return *this;
+
+	mDoF = dist.mDoF;
+	return *this;
 }
 
 ChiSquareDistribution::~ChiSquareDistribution()
@@ -192,6 +245,22 @@ ExponentialDistribution::ExponentialDistribution(double lambda) :
 {
 }
 
+ExponentialDistribution::ExponentialDistribution(const ExponentialDistribution& dist) :
+	ContinuousDistribution{},
+	mLambda{ dist.mLambda }
+{
+}
+
+const ExponentialDistribution& ExponentialDistribution::operator = (const ExponentialDistribution& dist)
+{
+	// Prevent self assignemnt
+	if (this == &dist)
+		return *this;
+
+	mLambda = dist.mLambda;
+	return *this;
+}
+
 ExponentialDistribution::~ExponentialDistribution()
 {
 }
@@ -208,5 +277,6 @@ double ExponentialDistribution::cdf(double x) const
 
 double ExponentialDistribution::invCDF(double prob, const BisectionSolver& solver) const
 {
+	(void)solver; // To remove unused variable error/warning in some compiler. Can be done by declaring variables with [[maybe_unused]] if using C++17
 	return std::log(1 - prob) / -mLambda;
 }

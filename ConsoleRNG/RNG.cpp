@@ -8,16 +8,14 @@
 
 RNG::RNG(std::shared_ptr<ContinuousDistribution> dist, std::size_t accuracyLevel) :
 	mDist{ dist },
-	mAccuracy{ 1 / std::pow(10.0, accuracyLevel) },
-	mSeed{ 123 }
+	mAccuracy{ 1 / std::pow(10.0, accuracyLevel) }
 {
 }
 
-RNG::RNG(std::shared_ptr<ContinuousDistribution> dist, std::shared_ptr<BisectionSolver> solver, std::size_t accuracyLevel, std::size_t seed) :
+RNG::RNG(std::shared_ptr<ContinuousDistribution> dist, std::shared_ptr<BisectionSolver> solver, std::size_t accuracyLevel) :
 	mDist{ dist },
 	mSolver{ solver },
-	mAccuracy{ 1 / std::pow(10.0, accuracyLevel)},
-	mSeed{ seed }
+	mAccuracy{ 1 / std::pow(10.0, accuracyLevel)}
 {
 }
 
@@ -32,6 +30,7 @@ std::size_t RNG::generateRandInt() const
 	std::bernoulli_distribution dist{ 0.5 };
 
 	std::size_t rNum = 0;
+	// Use binary random number to generate each bit of a 64bit unsigned int
 	for (std::size_t i = 0; i < sizeof(std::size_t) * 8; ++i)
 	{
 		rNum = rNum << 1;
@@ -52,6 +51,7 @@ std::shared_ptr<std::vector<double>> RNG::generate(std::size_t n) const
 	std::shared_ptr<std::vector<double>> randNums = std::make_shared<std::vector<double>>(n);
 	for (std::size_t i = 0; i < n; ++i)
 	{
+		// Use the generated random unsigned int to compute the random probability
 		double prob = 1.0 * generateRandInt() / SIZE_MAX;
 		prob = std::round(prob / mAccuracy) * mAccuracy;
 		// Debug print probability

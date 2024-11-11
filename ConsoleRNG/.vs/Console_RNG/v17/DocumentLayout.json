@@ -3,35 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\RNG.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|solutionrelative:RNG.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Solver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|solutionrelative:Solver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Distribution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|solutionrelative:Distribution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\RNG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|solutionrelative:RNG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Distribution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|solutionrelative:Distribution.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Distribution.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|solutionrelative:Distribution.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\VECTOR||{3B902123-F8A7-4915-9F01-361F908088D0}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\RNG.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|solutionrelative:RNG.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Solver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|solutionrelative:Solver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Solver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CC733EED-8C7E-430B-9A07-810273CD6471}|ConsoleRNG.vcxproj|solutionrelative:Solver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,11 +41,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Solver.h",
               "DocumentMoniker": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Solver.h",
               "RelativeDocumentMoniker": "Solver.h",
@@ -53,12 +53,11 @@
               "RelativeToolTip": "Solver.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-08T22:14:35.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T22:14:35.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Solver.cpp",
               "DocumentMoniker": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Solver.cpp",
               "RelativeDocumentMoniker": "Solver.cpp",
@@ -77,66 +76,66 @@
               "RelativeDocumentMoniker": "Distribution.h",
               "ToolTip": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Distribution.h",
               "RelativeToolTip": "Distribution.h",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAAFIAAAA5AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-07T02:48:32.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Distribution.cpp",
               "DocumentMoniker": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Distribution.cpp",
               "RelativeDocumentMoniker": "Distribution.cpp",
               "ToolTip": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\Distribution.cpp",
               "RelativeToolTip": "Distribution.cpp",
-              "ViewState": "AQIAAJsAAAAAAAAAAAAewK0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-07T02:34:57.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "RNG.h",
               "DocumentMoniker": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\RNG.h",
               "RelativeDocumentMoniker": "RNG.h",
               "ToolTip": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\RNG.h",
               "RelativeToolTip": "RNG.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAB1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-07T02:49:03.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RNG.cpp",
               "DocumentMoniker": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\RNG.cpp",
               "RelativeDocumentMoniker": "RNG.cpp",
               "ToolTip": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\RNG.cpp",
               "RelativeToolTip": "RNG.cpp",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADkAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-07T02:34:42.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\logis\\OneDrive\\\u684C\u9762\\MS_RNG\\ConsoleRNG\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAD4AAAA5AAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEoAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-07T02:32:20.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "vector",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
               "ViewState": "AQIAAFgHAAAAAAAAAAAewGQHAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-09T14:47:31.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T14:47:31.161Z"
             }
           ]
         }

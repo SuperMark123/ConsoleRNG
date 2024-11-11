@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  Distribution.cpp
+  RNG.cpp
+  main.cpp
+  Generating Code...
   ConsoleRNG.vcxproj -> C:\Users\logis\OneDrive\桌面\MS_RNG\ConsoleRNG\x64\Debug\Console_RNG.exe
