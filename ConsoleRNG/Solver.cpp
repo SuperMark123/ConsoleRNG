@@ -12,6 +12,8 @@ BisectionSolver::~BisectionSolver()
 
 std::pair<double, double> BisectionSolver::findBracket(const RealFunction& func, double target) const
 {
+	// Assume the input function is an monotonic increasing function and has real domain. 
+	// One can negate the function outside of the object if the function is monotonic decreasing.
 	double lower = -10;
 	double upper = 10;
 
